@@ -46,12 +46,12 @@ is the normal behavior of a good encription tool
 		fmt.Printf(note)
 		fmt.Printf("\n\nExamples:\n\n")
 		fmt.Printf(`
-	$ ./vault -encrypt -data "하파엘" -secret password-so-hard
-	$ 8ad07a8aa49840e9a8784729119bafd44d077ef649c41a17a1388f426cdab996f7660b64c7
-	
-	$ ENCRYPTED=8ad07a8aa49840e9a8784729119bafd44d077ef649c41a17a1388f426cdab996f7660b64c7
-	$ ./vault -decrypt -data $ENCRYPTED -secret password-so-hard
-	$ 하파엘
+$ ./vault -encrypt -data "하파엘" -secret password-so-hard
+$ 8ad07a8aa49840e9a8784729119bafd44d077ef649c41a17a1388f426cdab996f7660b64c7
+
+$ ENCRYPTED=8ad07a8aa49840e9a8784729119bafd44d077ef649c41a17a1388f426cdab996f7660b64c7
+$ ./vault -decrypt -data $ENCRYPTED -secret password-so-hard
+$ 하파엘
 		`)
 		fmt.Printf("\n하파엘 감ㅂ수 누네수.\n")
 	}
