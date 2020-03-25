@@ -4,7 +4,7 @@
 // @author: Rafael Campos Nunes <rafaelnunes@engineer.com>
 //
 
-package vault
+package main
 
 import (
 	"crypto/aes"

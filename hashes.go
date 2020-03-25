@@ -1,9 +1,10 @@
 //
+// Implements diverse hash functions to be used when hashing the function
 //
 // @author: Rafael Campos Nunes <rafaelnunes@engineer.com>
 //
 
-package vault
+package main
 
 import (
 	"crypto/md5"
