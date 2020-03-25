@@ -3,7 +3,7 @@
 // @author: Rafael Campos Nunes <rafaelnunes@engineer.com>
 //
 
-package main
+package vault
 
 import (
 	"crypto/md5"

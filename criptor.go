@@ -1,9 +1,10 @@
 //
+// Implements functions of encription and decription
 //
 // @author: Rafael Campos Nunes <rafaelnunes@engineer.com>
 //
 
-package main
+package vault
 
 import (
 	"crypto/aes"
